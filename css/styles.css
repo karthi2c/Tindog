@@ -49,6 +49,7 @@ h3 {
 .nav-link {
   font-family: 'Montserrat-Light';
   font-size: 1.2rem;
+  text-align: left;
 }
 
 /* Download-button */
@@ -60,18 +61,16 @@ h3 {
 .Download-image {
   width: 60%;
   transform: rotate(25deg);
- position:absolute;
- left:19%;
-
+  position: absolute;
+  left: 19%;
 }
 
 /* features */
 #features {
   text-align: center;
   padding: 7% 15%;
-  background-color:#fff;
-  position:relative;
-
+  background-color: #fff;
+  position: relative;
 }
 
 .fas {
@@ -100,7 +99,7 @@ h3 {
 }
 
 .carousel-item {
-   padding: 7% 12.5rem 7% 12.5rem;
+  padding: 7% 12.5rem 7% 12.5rem;
 }
 
 /* Press */
@@ -114,60 +113,57 @@ h3 {
   width: 15%;
   padding: 20px 20px 50px;
 }
- /* pricing */
 
- #pricing {
-  padding:6.25rem;
-  text-align:center;
- }
+/* pricing */
+#pricing {
+  padding: 6.25rem;
+  text-align: center;
+}
 
 .pricing-column {
-  padding:3% 2%;
+  padding: 3% 2%;
 }
 
 .card {
-  padding:0;
+  padding: 0;
 }
 
 #cta {
-  background-color:#ff4c68;
-  text-align:center;
-  padding:7% 15%;
-
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
 }
 
 .h3cta {
   font-size: 3.5rem;
-  color:#fff;
-  line-height:1.5;
-  font-family:"montserrat-black";
-  margin-bottom:20px;
-
+  color: #fff;
+  line-height: 1.5;
+  font-family: "montserrat-black";
+  margin-bottom: 20px;
 }
+
 .Download-button2 {
-  margin:0 0.450rem 0 0.450rem;
+  margin: 0 0.450rem 0 0.450rem;
 }
 
 /* footer */
 #footer {
-  text-align:center;
-  padding:6.25rem 0;
-  line-height:2;
+  text-align: center;
+  padding: 6.25rem 0;
+  line-height: 2;
 }
+
 .fab {
-  margin:0 5px 0 5px;
+  margin: 0 5px 0 5px;
 }
-@media (max-width:991px)
-{
+
+@media (max-width:991px) {
   .Download-image {
-
     transform: rotate(0);
-   position:static;
-
+    position: static;
   }
 
   #title {
-    text-align:center;
+    text-align: center;
   }
-
 }
